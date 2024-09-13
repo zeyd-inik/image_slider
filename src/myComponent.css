@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  height: 450px;
+  width: 600px;
+  background-color: grey;
+  margin: 2rem auto;
+  border-radius: 8px;
+  position: relative;
+}
+.show {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.hide {
+  display: none;
+}
+.circles-container {
+  display: flex;
+  gap: 0.4rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin: 0 auto;
+}
+.circle {
+  color: rgb(238, 238, 238);
+  cursor: pointer;
+}
+.active {
+  color: rgb(3, 245, 204);
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.left {
+  left: 1rem;
+}
+.right {
+  right: 1rem;
+}
